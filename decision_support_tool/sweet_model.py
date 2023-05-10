@@ -2,7 +2,6 @@ import xlwings as xw
 import pandas as pd 
 import datetime as dt
 
-#filepath_workbook = f'{local_path}WasteMap/Sandbox/Testbook'
 filepath_workbook = 'C:\\Users\\andre.scheinwald\\Downloads\\SWEET_Version4.0.2_7.8.22.xlsm'
 
 # Get workbook ready
@@ -96,12 +95,11 @@ def landfill(total_sites: int, name, open_year, close_year, annual_disposal, sit
 def summary_extraction(end_year):
     lower_row = current_year - 1949
     upper_row = end_year - 1949
-    #lower_cell = f'Q{lower_row}'
-    #upper_cell = f'Q{upper_row}'
-    #ls = wb.sheets['Summary - Emissions'].range(f'{lower_cell}:{upper_cell}').value
-    ls1 = wb.sheets['Summary - Emissions'].range(f'Q{lower_row}:Q{upper_row}').value
-    ls2 = wb.sheets['Summary - Emissions'].range(f'I{lower_row}:I{upper_row}').value
-    df = pd.DataFrame({'year': ls2, 'ch4_emissions_metric_tons': ls1})
+    ls = wb.sheets['Summary - Emissions'].range(f'I{lower_row}:T{upper_row}').value
+    column_names = ['year', 'waste_collection_and_transport', 'waste_burning', 'landfills_and_lfg_combustion' ,'organics_management',
+                    'waste_handling_equipment',	'waste_combustion',	'total', 'total_metric_tons_ch4', 'total_metric_tons_sox',
+                    'total_metric_tons_pm_2_5', 'total_metric_tons_pm_10']
+    df = pd.DataFrame(ls, columns = column_names)
     return df
 
 # close the workbook
@@ -112,8 +110,6 @@ def close_workbook(save_changes: bool):
         pass
     wb.close()
     xl.quit()
-    #global wb, xl
-    #del xl, wb
     
 city, country, global_region, pop_in_col, pop_out_col, current_year = create_general_inputs("Providence", 'United States', 'North America', 1100000, 0)
 
