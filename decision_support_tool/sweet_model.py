@@ -6,19 +6,24 @@ import time
 # Look into containerizing this
 # batch!
 
+project_composting_year = True
+user_selected_compost_percents = True
+excel_file_gas_capture = False
+
 filepath_workbook = 'C:\\Users\\andre.scheinwald\\Downloads\\SWEET_Version4.0.2_7.8.22.xlsm'
 
 # Get workbook ready
-xl = xw.App(visible=False)
+xl = xw.App(visible = False)
 
 start_time = time.time()
 wb = xw.Book(filepath_workbook)
 print(f'Opening the workbook took {round(time.time() - start_time, 2)} seconds')
 
-def load_csv():
-    df = pd.read_excel(r'C:\\Users\\andre.scheinwald\\Documents\\sweet_data_inputs_mockup_v2.xlsx')
+def load_excel():
+    df = pd.read_excel(r'C:\\Users\\andre.scheinwald\\Documents\\sweet_data_inputs_mockup.xlsx')
     return df
-    
+
+
 # Default waste percent function
 def retrieve_waste_vals(exclude_totals: bool):
     ls = wb.sheets['Default Values'].range("B13:V24").value
@@ -31,11 +36,13 @@ def retrieve_waste_vals(exclude_totals: bool):
         pass
     return df
 
+
 def retrieve_gen_vals():
     ls = wb.sheets['Default Values'].range("G30:H50").value
     df = pd.DataFrame(ls)
     df = df.rename(columns=df.iloc[0]).drop(df.index[0]).reset_index(drop=True)
     return df
+
 
 def insert_general_data(row):
     ls = wb.sheets['Default Values'].range("C13:V13").value
@@ -57,40 +64,67 @@ def insert_general_data(row):
         wb.sheets["General Information"].range("C29:C38").options(pd.DataFrame, header=False, index=False).value = waste_values[[row['global_region']]]
     else:
         print(f'Error: {row["global_region"]} is not an accepted parameter.  Please use the options found in {ls}')
-            
-def insert_diversion(row):
-      if pd.isnull(row['composting_diversion_scenario_start_year']):
-          wb.sheets["General Information"].range("C53:C54").clear_contents()
-          wb.sheets["General Information"].range("C59:C62").clear_contents()
-          
-      else:
-          wb.sheets["General Information"].range("C53").value = row['composting_diversion_scenario_start_year']
-          wb.sheets["General Information"].range("C54").value = row['metric_tons_of_waste_delivered_to_composting_facility_per_year']
-          wb.sheets["General Information"].range("C59").value = row['percent_of_composting_waste_targeted_for_diversion_food_waste']
-          wb.sheets["General Information"].range("C60").value = row['percent_of_composting_waste_targeted_for_diversion_green']
-          wb.sheets["General Information"].range("C61").value = row['percent_of_composting_waste_targeted_for_diversion_wood']
-          wb.sheets["General Information"].range("C62").value = row['percent_of_composting_waste_targeted_for_diversion_paper_cardboard']
 
+
+def insert_diversion(row, compost_year_variable, percent_compost_composted):
+    if project_composting_year and user_selected_compost_percents:
+        if composting_percent == 0:
+            wb.sheets["General Information"].range("C53:C54").clear_contents()
+            wb.sheets["General Information"].range("C59:C62").clear_contents()
+        else: # Using D39 leads to overestimating from 0 to 93 metric tons (0 to 0.039% diff).  Using C22 underestimates in the opposite direction. scenario specific to landfill, 60% composting, no methane capture
+            #total_waste = wb.sheets['General Information'].range("D39").value
+            total_waste = wb.sheets['General Information'].range("C22").value
+            #total_waste = pd.DataFrame(wb.sheets["General Information"].range("B29:D32").value, columns = ['waste_type', 'percent', 'metric_tons'])
+            #total_waste = sum(wb.sheets["General Information"].range("D29:D32").value)
+            wb.sheets["General Information"].range("C53").value = dt.datetime.today().year + compost_year_variable
+            df = waste_values[['Type', row['global_region']]]
+            df = df[df['Type'].isin(['Food Waste', 'Garden Waste', 'Wood', 'Paper/Cardboard'])]
+            wb.sheets["General Information"].range("C54").value = percent_compost_composted * sum(df.iloc[:, 1]) * total_waste
+            #df['weight'] = total_waste * df.iloc[:, 1] * percent_compost_composted
+            df['compost_percent_total'] = df.iloc[:, 1] / sum(df.iloc[:, 1])
+            wb.sheets["General Information"].range("C59:C62").options(pd.DataFrame, header=False, index=False).value = df[['compost_percent_total']]
+        
+    elif pd.isnull(row['composting_diversion_scenario_start_year']):
+        wb.sheets["General Information"].range("C53:C54").clear_contents()
+        wb.sheets["General Information"].range("C59:C62").clear_contents()
+    else:
+        wb.sheets["General Information"].range("C53").value = row['composting_diversion_scenario_start_year']
+        wb.sheets["General Information"].range("C54").value = row['metric_tons_of_waste_delivered_to_composting_facility_per_year']
+        wb.sheets["General Information"].range("C59").value = row['percent_of_composting_waste_targeted_for_diversion_food_waste']
+        wb.sheets["General Information"].range("C60").value = row['percent_of_composting_waste_targeted_for_diversion_green']
+        wb.sheets["General Information"].range("C61").value = row['percent_of_composting_waste_targeted_for_diversion_wood']
+        wb.sheets["General Information"].range("C62").value = row['percent_of_composting_waste_targeted_for_diversion_paper_cardboard']
 
 
 def insert_landfill(row):
-          wb.sheets["Landfills and Dumpsites"].range("B7").value = 1
-          wb.sheets["Landfills and Dumpsites"].range("C13").value = row['landfill_name']
-          wb.sheets["Landfills and Dumpsites"].range("C14").value = row['site_opening_year']
-          wb.sheets["Landfills and Dumpsites"].range("C15").value = row['site_closure_year']
-          wb.sheets["Landfills and Dumpsites"].range("C16").value = row['most_recent_year_annual_disposal']
-          wb.sheets["Landfills and Dumpsites"].range("C17").value = row['landfill_or_dumpsite']
-          wb.sheets["Landfills and Dumpsites"].range("C19").value = row['average_waste_depth']
-          wb.sheets["Landfills and Dumpsites"].range("C20").value = row['existing_or_planned_gas_extraction']
-          if row['existing_or_planned_gas_extraction']=='Yes':
-                  wb.sheets["Landfills and Dumpsites"].range("C21").value = row['gas_extraction_or_flaring_start_year']
-                  wb.sheets["Landfills and Dumpsites"].range("C22").value = row['existing_or_planned_gas_to_energy_project']
-                  wb.sheets["Landfills and Dumpsites"].range("C24").value = row['methane_recovery']
-                  wb.sheets["Landfills and Dumpsites"].range("C25").value = row['methane_recovery_data_year']
-          else:
-                  wb.sheets["Landfills and Dumpsites"].range("C21").clear_contents()
-                  wb.sheets["Landfills and Dumpsites"].range("C24:C25").clear_contents()
+    wb.sheets["Landfills and Dumpsites"].range("B7").value = 1
+    wb.sheets["Landfills and Dumpsites"].range("C13").value = row['landfill_name']
+    wb.sheets["Landfills and Dumpsites"].range("C14").value = row['site_opening_year']
+    wb.sheets["Landfills and Dumpsites"].range("C15").value = row['site_closure_year']
+    wb.sheets["Landfills and Dumpsites"].range("C16").value = row['most_recent_year_annual_disposal']
+    #wb.sheets["Landfills and Dumpsites"].range("C17").value = row['landfill_or_dumpsite']
+    wb.sheets["Landfills and Dumpsites"].range("C19").value = row['average_waste_depth']
+    if excel_file_gas_capture:
+        if row['existing_or_planned_gas_extraction']=='Yes':
+            wb.sheets["Landfills and Dumpsites"].range("C20").value = row['existing_or_planned_gas_extraction']
+            wb.sheets["Landfills and Dumpsites"].range("C21").value = row['gas_extraction_or_flaring_start_year']
+            wb.sheets["Landfills and Dumpsites"].range("C22").value = row['existing_or_planned_gas_to_energy_project']
+            wb.sheets["Landfills and Dumpsites"].range("C24").value = row['methane_recovery']
+            wb.sheets["Landfills and Dumpsites"].range("C25").value = row['methane_recovery_data_year']
+        else:
+            wb.sheets["Landfills and Dumpsites"].range("C21").clear_contents()
+            wb.sheets["Landfills and Dumpsites"].range("C24:C25").clear_contents()
+    else:
+        pass
+
+
+def insert_land_or_dump(landfill_variable):
+    wb.sheets["Landfills and Dumpsites"].range("C17").value = landfill_variable
     
+def insert_gas_capture(capture_variable):
+    wb.sheets["Landfills and Dumpsites"].range("C20").value = capture_variable
+
+
 def summary_extraction(end_year):
     lower_row = dt.datetime.today().year - 1949
     upper_row = end_year - 1949
@@ -101,6 +135,7 @@ def summary_extraction(end_year):
     df = pd.DataFrame(ls, columns = column_names)
     return df
 
+
 # close the workbook
 def close_workbook(save_changes: bool):
     if save_changes:
@@ -110,32 +145,57 @@ def close_workbook(save_changes: bool):
     wb.close()
     xl.quit()
 
+
 if __name__ == "__main__":
-    data = load_csv()
-    
+    data = load_excel()
+
+
 waste_values = retrieve_waste_vals(exclude_totals = True)
 
 waste_gen_rate = retrieve_gen_vals()
 
 appended_data = []
 
+landfill_type = ['Controlled Dumpsite','Dumpsite','Landfill']
+
+composting_percent = [0, 0.2, 0.4, 0.6]
+
+#compost_year_variable = [1, 2, 3, 4, 5]
+compost_year_variable = [0]
+
+methane_capture = ['Yes', 'No']
+
 counter = 0
 
 start_time = time.time()
 
-for index, row in data.iterrows():
-    counter += 1
+for index, row in data.iterrows():   
     insert_general_data(row)
-    insert_diversion(row)
     insert_landfill(row)
-    df = summary_extraction(2050)
-    df['city'] = row['city']
-    df['country'] = row['country']
-    df['loop_iteration'] = counter
-    appended_data.append(df)
+    if project_composting_year and user_selected_compost_percents:
+        for compost_perc in composting_percent:
+            for year_var in compost_year_variable:
+                insert_diversion(row, year_var, compost_perc)
+                for types in landfill_type:
+                    for capture in methane_capture:
+                        counter += 1
+                        insert_land_or_dump(types)
+                        insert_gas_capture(capture)
+                        df = summary_extraction(2050)
+                        df['city'] = row['city']
+                        df['country'] = row['country']
+                        df['landfill_type'] = types
+                        df['compost_percent'] = compost_perc
+                        df['compost_start_year'] = dt.datetime.today().year + year_var
+                        df['methane_capture'] = capture
+                        df['landfill_name'] = row['landfill_name']
+                        df['loop_iteration'] = counter
+                        appended_data.append(df)
     
 final_df = pd.concat(appended_data)
 
 print(f'The for loop took {round(time.time() - start_time, 2)} seconds to do {counter} iterations')
 
 close_workbook(save_changes = False)
+
+final_df.to_csv("C:\\Users\\andre.scheinwald\\Documents\\sweet_output.csv", index=False)
