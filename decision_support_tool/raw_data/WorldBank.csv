@@ -1,0 +1,330 @@
+﻿iso3c,region_id,country_name,income_id,city_name,population_population_number_of_people,primary_collection_mode_form_of_primary_collection_na,total_msw_total_msw_generated_tons_year,composition_food_organic_waste_percent,composition_glass_percent,composition_metal_percent,composition_other_percent,composition_paper_cardboard_percent,composition_plastic_percent,composition_rubber_leather_percent,composition_wood_percent,composition_yard_garden_green_waste_percent,waste_treatment_advanced_thermal_treatment_percent,waste_treatment_anaerobic_digestion_percent,waste_treatment_compost_percent,waste_treatment_controlled_landfill_percent,waste_treatment_incineration_percent,waste_treatment_landfill_unspecified_percent,waste_treatment_open_dump_percent,waste_treatment_other_percent,waste_treatment_recycling_percent,waste_treatment_sanitary_landfill_landfill_gas_system_percent,waste_treatment_unaccounted_for_percent
+AFG,SAS,Afghanistan,LIC,Jalalabad,326585,Door-to-door collection,58914.45,1.0455,1.1175,0.0175,84.854,0.08,5.6455,4.9425,0.156,2.1395,,,,,,,100,,,,
+AFG,SAS,Afghanistan,LIC,Kandahar,429000,Centralized drop-off point,120971,11.6,2.311,0.169,64.364,1.499,9.643,5.929,,4.49,,,,,,,100,,,,
+AFG,SAS,Afghanistan,LIC,Mazar-E-Sharif,635250,Centralized drop-off point,52368.4,50.5,1.32,0.32,28.87,1.69,10.64,3.41,0.18,2.87,,,,,,,100,,,,
+AFG,SAS,Afghanistan,LIC,Kabul,3700000,Centralized drop-off point,1989250,13.5,1,0.5,63,5,11,,1,4,,,,,,,75,,,,25
+AFG,SAS,Afghanistan,LIC,Hirat√Ç¬†,337000,Door-to-door collection,91644.7,52.94,1.47,0.23,23.05,3.67,12.06,5.39,0.54,0.64,,,,,,,100,,,,
+AGO,SSF,Angola,LMC,Luanda,4508000,,1316336,21,6,3,43,11,12,,1,3,,,,,,,,,,,
+ALB,ECS,Albania,UMC,Korca,51152,Curbside collection,21000,37,2,2,37,11,11,,,,,,,100,,,,,,,
+ALB,ECS,Albania,UMC,Vlora,79513,Curbside collection,37955,40.42,4.47,0.99,24.08,18.94,11.1,,,,,,,,,,90,,10,,
+ARE,MEA,United Arab Emirates,HIC,Abu Dhabi,1145000,Curbside collection,1033543,39,4,3,10,25,19,,,,,,9,,,9,62,,20,,
+ARE,MEA,United Arab Emirates,HIC,Dubai,2415000,Curbside,2689808,35.42,3.42,2.37,7.55,24.29,24.23,1.67,0.98,,,,,,,,,,25,75,
+ARG,LCN,Argentina,HIC,C√É¬≥rdoba,1329604,Multiple,488735,35,3,2,15,13,14,,,18,,,,69.32,,,30,,0.68,,
+ARG,LCN,Argentina,HIC,Rosario,1193605,Multiple,438730,58.38,4.93,1.4,11.31,13.55,11.68,,,,,,15.2,,,,,,,89.19,
+ARG,LCN,Argentina,HIC,Ciudada Aut√É¬≥noma De Buenos Aires (Caba).,2981781,Multiple,2532005,38,6,2,18,16,16,,,4,,,,,,,,14.42,7.2,61.5,16.88
+ARM,ECS,Armenia,UMC,Vanadzor,86199,Curbside collection,23596.97,28,6,3.75,34.5,10,15.75,2,,,,,,,,,90,,,,10
+ARM,ECS,Armenia,UMC,Spitak,12881,Curbside collection,2866,29.5,6.75,4,42.75,4.5,9.75,2.75,,,,,,,,,93.16,,,,6.84
+AUS,EAS,Australia,HIC,Canberra,353626,Curbside collection,350000,47,7,5,15,22,4,,,,,,,28,,,,,70,,2
+AUT,ECS,Austria,HIC,Vienna,1741246,Door-to-door collection: waste collector knocks on door or rings doorbell and waits for resident to bring waste.,1036879,31.4,8.3,3.6,16.8,37,2.9,,,,,,,,,,,,,,
+AZE,ECS,Azerbaijan,UMC,Baku,2374000,Curbside collection,1965922,41.7,6.4,1.5,20.6,18.1,10.4,,1.4,,,,,,24.21,,,,,36.36,49.22
+BDI,SSF,Burundi,LIC,Muyinga,632409,,5657.5,,,,,,,,,,,,,,,,100,,,,
+BDI,SSF,Burundi,LIC,Kayanza,585412,,4015,,,,,,,,,,,,,,,,,,,,
+BDI,SSF,Burundi,LIC,Ngozi,39884,,6752.5,,,,,,,,,,,,,,,,100,,,,
+BDI,SSF,Burundi,LIC,Bujumbura,412000,Door-to-door collection,210532,,,,,,,,,,,,,,,,100,,,,
+BEL,ECS,Belgium,HIC,Brussels,1154635,Other,469559,,22,,20,35,11,,,12,,,,,,,,,,,
+BEL,ECS,Belgium,HIC,Liege,1020579,Other,525300,,,,,,,,,,,3,14,,26,,,,53,4,
+BEN,SSF,Benin,LIC,Porto Novo,600000,,109500,,,,,,,,,,,,,,,,,,,,
+BEN,SSF,Benin,LIC,Cotonou,642000,Door-to-door collection,258420,58.24,0.86,1.13,29.62,3.96,4.43,0.22,1.54,,,,,,,,,,,,
+BFA,SSF,Burkina Faso,LIC,Bobo Dioulasso,365000,,90000,,,,,,,,,,,,,,,,,,,,
+BFA,SSF,Burkina Faso,LIC,Ouagadougou,1328000,Door-to-door collection: waste collector knocks on door or rings doorbell and waits for resident to bring waste.,315068,39,3,4,35,9,10,,,,,,,,,,,,,,
+BGD,SAS,Bangladesh,LMC,Patuakhali,65000,Centralized drop-off point,5220,84.37,0.63,0.4,5.95,3.1,2.89,1.06,0,1.61,,,,,,,55.45,,4.55,,40
+BGD,SAS,Bangladesh,LMC,Chittagong,2581643,Door-to-door collection,320380,79.03,0.22,1.04,6.08,3.6,7.21,2.09,0,0.72,,,0.42,,,,29.17,,12.41,,58
+BGD,SAS,Bangladesh,LMC,Rangpur,294265,Centralized drop-off point,25992,76.68,0.59,0.5,12.74,2.81,4.55,0.74,0,1.41,,,,,,,27.16,,4.84,,68
+BGD,SAS,Bangladesh,LMC,Dhaka,5700000,Door-to-door collection,1424689,78.87,4.085,4.085,4.57,4.29,4.1,,,,,,,,,,43.5,43,13.5,,
+BGD,SAS,Bangladesh,LMC,Rajshahi,448087,Door-to-door collection,40069.7,81.96,0.3,0.04,9.91,2.64,4.05,0.42,,0.66,,,,,,,67.29,,4.71,,28
+BIH,ECS,Bosnia and Herzegovina,UMC,Banja Luka,180053,Centralized drop-off point,65941,34.2,4.9,6.6,16.3,10.8,22.3,0.9,4.1,,,,,,,,,,,100,
+BIH,ECS,Bosnia and Herzegovina,UMC,Sarajevo,318000,Centralized drop-off point,146280,15,14,,51,17,2.5,,,,,,,,,,,,,,
+BLR,ECS,Belarus,UMC,Minsk,1915000,Centralized drop-off point,1135421,32.13,5.88,4.23,35,6.9,10.12,1.75,3.23,1,,,,,,,,,,97,3
+BLR,ECS,Belarus,UMC,Grodno,340000,Multiple,147500,23.8,14.6,2.6,44.3,4.6,8.6,0.6,0.9,,,,,99.4,,,,,0.6,,
+BLZ,LCN,Belize,UMC,San Pedro,14215,,10166,52,6,4,,13,13,,,12,,,,,,,,,,57.6,42.4
+BLZ,LCN,Belize,UMC,Belize City,68266,Centralized drop-off point,32657,37,9,7,8,18,21,,,,,,,,,,,,,65,35
+BOL,LCN,Bolivia,LMC,La Paz,840209,Multiple,202456.07,47.3,2.6,1.4,20.7,12.8,15.2,,,,,,1,,,,,,4,89,6
+BRA,LCN,Brazil,UMC,"Distrito Federal, Brasilia",2977216,Multiple,835480,46.1,0.6,4.3,4.4,27.1,14.7,1.2,1.8,,,,,100,,,,,5.94,0,
+BRA,LCN,Brazil,UMC,Rio De Janeiro,6453682,Door-to-door collection,3368499,52,3.5,1.67,6.3,14.97,21.15,,,,,,,6.3,,,0,,0.5,93.2,
+BRA,LCN,Brazil,UMC,Sao Paulo,11895893,Door-to-door collection,4700000,47,1,2,22,16,10,1,,,,,3,24,,,18,,,55,
+BTN,SAS,Bhutan,LMC,Phuentsholing√Ç¬†,40000,Door-to-door collection,6205,65.4,2.3,0.4,2.3,14.1,12.1,3.5,,,,,,,,,,,,100,
+BTN,SAS,Bhutan,LMC,Thimphu,101990,Door-to-door collection,18250,50.5,3.7,0.5,4.2,24.6,13.5,3.1,,,,,8,,,,82,,5,,5
+BWA,SSF,Botswana,UMC,Gaborone,210000,,53655,67.9,6.4,6.2,2.5,12.5,4.5,,,,,,,,,,,,,,
+CAN,NAC,Canada,HIC,Toronto,2800000,Curbside collection,942700,46.5,3.5,2.8,8.2,26.3,11,,,2,,,3.74,52.08,,,,,47.91,,
+CAN,NAC,Canada,HIC,Ottawa,934243,Curbside collection,325000,50.1,,,26.7,15.9,7.3,,,,,,,,,,,,42.5,,
+CAN,NAC,Canada,HIC,Vancouver,2465031,Curbside collection,909519,43,2,3,18,17,17,,,,,,,,,,,,,,
+CHE,ECS,Switzerland,HIC,Bern,358000,,59000,,,,,,,,,,,,,,,,,,43.22,,
+CHL,LCN,Chile,HIC,Santiago De Chile,7007620,,3072148,49,4,1,16,12,10,,,13,,,,1.2,,,,,,98.8,
+CHN,EAS,China,UMC,Beijing,20384000,,7903000,63.4,1.6,0.3,6.6,11.1,12.7,2.5,1.8,,,,2,,8,,,,,90,
+CIV,SSF,C√¥te d‚ÄôIvoire,LMC,Abidjan,4150000,Door-to-door collection,1200000,40,2,2,35,6,8,,,9,,,,,,,,,,,
+CMR,SSF,Cameroon,LMC,Douala,1490000,,380695,,,,,,,,,,,,,,,,,,,,
+CMR,SSF,Cameroon,LMC,Yaounde,2349000,,375303.95,,,,,,,,,,,,,,,,,,,,
+CMR,SSF,Cameroon,LMC,Bafoussam,193000,,30000,,,,,,,,,,,,,,,,,,,,
+COD,SSF,"Congo, Dem. Rep.",LIC,Kinshasa,11587000,,2555000,,,,,,,,,,,,,,,,10,,,,90
+COG,SSF,"Congo, Rep.",LMC,Dolisie,95000,Door-to-door collection,17550,73.9,2.1,1.9,9.9,6,6.2,,,,,,,,,,,,,,
+COL,LCN,Colombia,UMC,Bogot√É¬°,6840116,,1746890,61.45,1.06,0.95,7.34,10.17,19.03,,,,,,,,,,,,17,83,
+COL,LCN,Colombia,UMC,Medellin,2464322,Door-to-door collection,476455,59.24,1.07,0.76,25.86,3.7,9.37,,,,,,,,,,,,16,84,
+COL,LCN,Colombia,UMC,Cali,2224158,Other,669410,59,2.56,1.06,27.94,6.23,3.21,,,,,,,,,,,,15,85,
+COM,SSF,Comoros,LIC,Moroni,56000,Centralized drop-off point,,,,,,,,,,,,,,40,,,,,,,60
+CRI,LCN,Costa Rica,UMC,San Jos√É¬©,309673,Door-to-door collection,132405,55,2,2,20,11,10,,,,,,,,,,,0.38,5.2,94.42,
+CRI,LCN,Costa Rica,UMC,Alajuela,254886,Door-to-door collection,80901.44,51.1,0.9,1.1,26.8,7.5,12.6,,,,,,,,,,,,0.42,100,
+CUB,LCN,Cuba,UMC,Havana,2135747,Multiple,545683.36,60,11,2,1,9,8,,,9,,,,97,,,,3,,,
+CYP,ECS,Cyprus,HIC,Nicosia,55014,,36198,,,,,,,,,,,,2.87,,,87.23,,,9.89,,0.01
+CZE,ECS,Czech Republic,HIC,Karlovy Vary,299293,,131539.27,,,,,,,,,,,,,,,,,,,,
+CZE,ECS,Czech Republic,HIC,Prague,1243201,Other,400900,,,,,,,,,,,,,,,,,,,,
+DEU,ECS,Germany,HIC,Berlin,3563000,,1350457,44,6,2,28,10,8,,2,,,,,1,65,,,6,28,,
+DJI,MEA,Djibouti,LMC,Djiibouti City,404000,,87600,,,,,,,,,,,,,,,,,62,,,
+DNK,ECS,Denmark,HIC,Copenhagen,570171,Other,233805,,,,,,,,,,,,,,,,,,,,
+DOM,LCN,Dominican Republic,UMC,Santo Domingo,3976012,Multiple,1818889,58,5,2,11,8,9,1,0.3,7,,,,,,,,,,72,28
+DZA,MEA,Algeria,UMC,Algiers,2594000,,1237874,54.4,1.16,2.84,0.84,9.75,16.88,12.62,1.51,,,,1,,,,,7,10,82,
+DZA,MEA,Algeria,UMC,Mostaganem,720000,,160000,64.6,2.8,1.9,4.3,15.9,10.5,,,,,,,,,,,,,,
+ECU,LCN,Ecuador,UMC,Quito,2344231,,727297.66,56.95,1.62,0.9,20.92,4.25,14.21,,0.85,0.3,,,,,,,,,6,89,5
+EGY,MEA,"Egypt, Arab Rep.",LMC,Cairo,9000000,Door-to-door collection,5475000,56,3,7.2,10.5,19.5,3.8,,,,,,,,,,,,,,
+ESP,ECS,Spain,HIC,Pamplona,195650,Centralized drop-off point,141296,37.2,8.9,2.3,24.6,16.4,8.2,,2.5,,,,,68,,,,,32,,
+ESP,ECS,Spain,HIC,Madrid,3165235,Other,2652471,,21.73,5.8,43.76,11.78,10.4,,0.2,6.31,,10,5,29,10,,,36,10,,
+EST,ECS,Estonia,HIC,Tallinn,391000,,202011,22,13,5,15,29,14,,2,,,,,,,,,,,,
+ETH,SSF,Ethiopia,LIC,Adola Woyu,32692,,3222,39,3.65,5.1,28.1,7.6,6.3,0.6,9.5,,,,,,,,,,,,
+ETH,SSF,Ethiopia,LIC,Bule Hora,35192,,7322,77.15,,,13.8,3.65,5.4,,,,,,,,,,,,,,
+ETH,SSF,Ethiopia,LIC,Addis Ababa,2979100,,413180,44.45,1.15,1.05,29.55,11.5,12.65,,,,,,,,,,,,,,
+ETH,SSF,Ethiopia,LIC,Maichew,33560,,4907,52.75,0.55,2.55,33.05,4.55,5.5,,,,,,,,,,,,,,
+ETH,SSF,Ethiopia,LIC,Tepi,36128,,4697.9,52,3,3.5,26.5,1,1,,12.5,,,,,,,,,,,,
+ETH,SSF,Ethiopia,LIC,Gerbe Guracha,41438,,5277.62,75.5,,,11.14,2.38,4,,1,,,,,,,,,,,,
+ETH,SSF,Ethiopia,LIC,Weldiya,86311,,4787,52.5,2.5,3,27,6.5,7.5,,0.5,,,,,,,,,,,,
+ETH,SSF,Ethiopia,LIC,Debre Tabor,78706,,6570,67,1,1,26,1,1,,1,,,,,,,,,,,,
+ETH,SSF,Ethiopia,LIC,Bati,20536,,1469,52.01,1.49,0.39,32.19,6.92,6.95,,,,,,,,,,,,,,
+ETH,SSF,Ethiopia,LIC,Dire Dawa,270000,Door-to-door collection,49275,68,0.7,1.5,15.3,5,10,,,,,,,,,,100,,,,
+ETH,SSF,Ethiopia,LIC,Halaba Kulito,271654,,,88.8,,,5.9,1.7,3.7,,,,,,,,,,,,,,
+ETH,SSF,Ethiopia,LIC,Dembi Dolo,41031,,3295,57,0.49,0.49,37.47,2.7,2.3,,,,,,,,,,,,,,
+FJI,EAS,Fiji,UMC,Suva,86000,Curbside collection,24272.5,49.5,2.5,3.6,6.2,16,8,0.1,4,9.7,,,,,,,,,,,
+FRA,ECS,France,HIC,Angers-Loire Metropole,277506,Other,136405,,,,,,,,,,,,22.85,,0.23,,,,17.66,53.95,5
+FRA,ECS,France,HIC,Paris,2254262,Door-to-door collection,1092508,22.2,6.8,3.8,25.1,21.3,16.7,,4.1,,,,,,77.5,,,,17.1,5.4,
+FSM,EAS,"Micronesia, Fed. Sts.",LMC,Pohnpei,34574,Door-to-door collection,4562.5,15.6,5.7,25.7,8.8,16.6,25,2.6,,,,,,,,,,,,,
+GAB,SSF,Gabon,UMC,Libreville,707000,,417428,,,,,,,,,,,,,,,,100,,,,
+GBR,ECS,United Kingdom,HIC,London,8173941,Door-to-door collection,3560990,34,12,4,8,36,6,,,,,,,,47,20,,4,30,,
+GBR,ECS,United Kingdom,HIC,Bristol,449300,Curbside collection,166000,48,1,1,23,7,11,,,8,25.3,,,29.67,,,,,45.03,,
+GHA,SSF,Ghana,LMC,Accra,1960000,Door-to-door collection,730000,65.8,2.8,3.1,11.3,5.3,10.4,2.1,,,,,,,,,,,5,,95
+GHA,SSF,Ghana,LMC,Kumasi,1470000,,397047,48.4,2.9,4.5,18.6,6.5,17.6,1.6,,,,,,,,,,,,,
+GIN,SSF,Guinea,LIC,Conakry,1045000,,219000,85,0.8,0.9,1.7,4.3,5.3,,,1.9,,,,,,,,,,,
+GMB,SSF,"Gambia, The",LIC,Banjul,331000,,79935,32.44,1.48,1.4,53.14,9.19,,,2.35,,,,,,,,,,,,
+GRC,ECS,Greece,HIC,Athens,664046,,310439.34,,9.15,1.28,88.87,1.11,0.01,,,,,,,,,,,,,,
+GRC,ECS,Greece,HIC,Thessaloniki,354290,,130629,44.3,4.3,3.9,6.8,22.2,13.9,,4.6,,,,,,,,,,,,
+GTM,LCN,Guatemala,UMC,Guatemala City,2918000,,482700,34.2,2.8,,22.5,18.6,17,2,2.9,,,,,,,,48,47,5,,
+GTM,LCN,Guatemala,UMC,Antigua Guatemala,41500,,8483,49.3,2.2,2.8,19.4,10,12,1.8,2.5,,,,,,,,,,,,
+GTM,LCN,Guatemala,UMC,Jutiapa,453369,,59100,42.9,3.4,,21.7,12.5,11.8,3.4,4.2,,,,,,,,12.44,87.56,,,
+HND,LCN,Honduras,LMC,Tegucigalpa,1200000,Door-to-door-collection,320470,40,4,4,13,15,8,2,,12,,,0,,,,5,2,3,89,1
+HND,LCN,Honduras,LMC,San Pedro Sula,852000,Curbside collection,289685.9,68.78,1.44,1.29,6.18,10.33,11.26,,0.71,,,,,,,,,,,,
+HRV,ECS,Croatia,HIC,Zagreb,687000,,255803.62,21.4,5.6,3.8,21.7,16.7,21.9,2.3,1.5,5.1,,,,,,,,,,,
+HRV,ECS,Croatia,HIC,Cakovec,15000,,8265.14,,,,,,,,,,,,,,,,,,,,
+HTI,LCN,Haiti,LIC,Port Au Prince,2618894,Centralized drop-off point,669127.42,53,2.1,1.5,14.2,12,15.4,,1.8,,,,,20,,,,,,,80
+HUN,ECS,Hungary,HIC,Budapest,1744665,Other,1000000,23.2,6,7,32.4,10.4,21.2,,,,,,,,52,,,,,,48
+IDN,EAS,Indonesia,LMC,Jakarta,9607787,Door-to-door collection,2240735,55.37,1.91,1.06,7.59,20.57,13.25,0.19,0.07,,,,,,,69.5,,,7.5,,23
+IND,SAS,India,LMC,Kota,1001694,Centralized drop-off point,216504,51,3,1,20,10,15,,,,,,,,,,100,,,,
+IND,SAS,India,LMC,Kozhikode,431560,Door-to-door collection,109500,,,,,,,,,,,,25,,,,60,,,,15
+IND,SAS,India,LMC,Jaipur,3046163,Centralized drop-off point,542390,,,,,,,,,,,,16.8,,,,60,23.6,,,
+IND,SAS,India,LMC,Tirunelveli,479606,,70007,,,,,,,,,,,,,,,,100,,,,
+IND,SAS,India,LMC,Amritsar,1132383,Door-to-door collection,227395,53,1,,35,5,1,,5,,,,,,,,100,,,,
+IND,SAS,India,LMC,Allahabad,1168385,Door-to-door collection,236640,,,,,,,,,,,,28,,,,65.7,,,,6.3
+IND,SAS,India,LMC,Greater Hyderabad √Ç¬†,6731790,Door-to-door collection,1642500,48.22,1.66,0.52,29,7.26,8.61,1.82,,2.97,,,44,10,,,,36,,,10
+IND,SAS,India,LMC,Kochi,602046,Door-to-door collection,72000,,,,,,21.6,,,,,,40.3,38,,,,,21.6,,0.1
+IND,SAS,India,LMC,Leh,17353,Door-to-door collection,12045,,,,,,,,,,,,,,,,100,,,,
+IND,SAS,India,LMC,Pune,3124458,Door-to-door collection,620500,33,5,3,47,6,5,1,,,,10.48,16.84,,,,50,10.89,11.17,,0.62
+IND,SAS,India,LMC,Patna,1684222,Door-to-door collection,338106.8,,,,,,,,,,,,,,,,15,,,,35
+IND,SAS,India,LMC,Jodhpur,1033756,,124538,13.22,0.54,2.49,20.54,9,15.34,1.93,5.17,31.74,,,24.7,,,,54,,,,21.3
+IND,SAS,India,LMC,Nagpur,2405665,Door-to-door collection,383250,77,,,2,9,12,,,,,,15,,,,81,,,,
+IND,SAS,India,LMC,Shimla,169578,Door-to-door collection,34039.9,,,,,,,,,,,,,,,,,16,15,,69
+IND,SAS,India,LMC,Rudrapur,154554,Door-to-door collection,23725,,,,,,,,,,,,,,,,92,,,,8
+IND,SAS,India,LMC,Bengaluru,8443675,Door-to-door collection,1277500,53,3,1,12,13,12,,,6,,0.57,14.28,,,,70,,,,15.15
+IND,SAS,India,LMC,Pimpri-Chinchwad,1727692,Door-to-door collection,271925,47.89,3.61,0.01,12,3.9,13.67,3.91,14.66,,,,60.9,,,,,0.2,18.8,20,0.1
+IND,SAS,India,LMC,Kanpur,2767031,Door-to-door collection,547500,51.97,0.24,0.41,40,3.38,2.25,1.6,,,,,46.66,,35,,,,8,,10.34
+IND,SAS,India,LMC,Rajkot,1432734,Door-to-door collection,193450,31.64,0.11,0.8,63.38,0.84,2.11,1.12,,,,,,,,,100,,,,
+IND,SAS,India,LMC,Tenali,164937,Door-to-door collection,34675,48,3,,15,11,,13,4,6,,2.1,1.05,,,,90,,3.7,,3.15
+IND,SAS,India,LMC,Lucknow,2817106,Door-to-door collection,505525,47,,,36,17,,,,,,,23,,,,60,15,,,2
+IND,SAS,India,LMC,Ludhiana,1840000,Door-to-door collection,401500,34,10,,35,4.7,16,,,,,,,,,,45,55,,,
+IND,SAS,India,LMC,Tadipatri,108249,Door-to-door collection,14600,62.5,,,25,,12.5,,,,,,70,,,,30,,,,
+IND,SAS,India,LMC,Bhopal,1798218,Door-to-door collection,292000,,,,,,,,,,,0.75,21.1,,,,,,,,78.15
+IND,SAS,India,LMC,Faridabad,1414050,Door-to-door collection,242360,42,0.85,0.26,33.65,7.16,16.08,,,,,,36.7,,,,,,,,42.4
+IND,SAS,India,LMC,Cuttack,610189,Door-to-door collection,66816,,,,,,,,,,,,,,,,100,,,,
+IND,SAS,India,LMC,Ahmedabad,6494197,Door-to-door collection,1204500,28,1,,32,4,10,9,1,15,,,36.4,,,,,,15,49,
+IND,SAS,India,LMC,Itanagar,59500,Door-to-door collection,29200,53,,3,24,7,7,6,,,,,62.5,,,,12,,,,25.5
+IND,SAS,India,LMC,Vishakhapatnam,1728128,Door-to-door collection,354050,52,,,25,23,,,,,,,,,,,97,,,,3
+IND,SAS,India,LMC,Nashik,1486053,Door-to-door collection,148569.6,,,,,,,,,,,,,20,,,,,,,35
+IND,SAS,India,LMC,Dhanbad,1162472,Door-to-door collection,197976,,,,,,,,,,,,,,,,,,,,
+IND,SAS,India,LMC,Delhi,11034555,Door-to-door collection,3062350,70.3,,,9.4,20.26,,,,,,,7.8,,31.9,,13.3,8.3,15,,23.8
+IND,SAS,India,LMC,Srinagar,1147613,Door-to-door collection,106390.2,,,,,,,,,,,,,,,,100,,,,
+IND,SAS,India,LMC,Ghaziabad,1648643,Door-to-door collection,271925,55.94,1.39,0.64,18.94,9.71,9.12,0.98,3.28,,,,40,,,,60,,,,
+IND,SAS,India,LMC,Imphal,268243,Door-to-door collection,29200,60,2,1,15,10,5,2,5,,,,,,,,,,,,
+IND,SAS,India,LMC,Surat,5500000,Door-to-door collection,620500,,,,,,,,,,,,23.5,,,,76,,,,0.5
+IND,SAS,India,LMC,Vijaywada,1137793,Door-to-door collection,207320,,,,,,,,,,,3.5,22,,,,74,,,,0.5
+IND,SAS,India,LMC,Chennai,6671309,Door-to-door collection,1825000,8,0,0.03,37.65,6.45,7.04,1.45,6.99,32.25,,,1,99,,,,,,,
+IND,SAS,India,LMC,Indore,1994397,Door-to-door collection,328500,59,0.5,0.5,27,2,3.5,3.5,,4,,,50,,,,25,25,,,
+IND,SAS,India,LMC,Coimbatore,1050721,Door-to-door collection,324850,76.95,,,17.5,5.55,,,,,,0.1,53.4,,,,,,20,24,0.02
+IND,SAS,India,LMC,Navi Mumbai,1120574,Block collection,237250,53,,,20.6,21.4,,,,5,,,82,18,,,,,,,
+IND,SAS,India,LMC,Greater Mumbai,12478447,Door-to-door collection,2497804.5,37,,,48,15,,,,,,,,,,,54,45.53,,,0.47
+IND,SAS,India,LMC,Guwahati,957352,Door-to-door collection,223015,,,,,,,,,,,,8.2,,,,75,,,,16.8
+IND,SAS,India,LMC,Gwalior√Ç¬†,1069276,Door-to-door collection,138754.75,57.4,0.83,0.26,17.34,12.89,11.25,,,,,,39.5,,,,60,,,,0.5
+IND,SAS,India,LMC,Bhubaneswar,837737,Door-to-door collection,189800,,,,,,,,,,,,,,,,100,,,,
+IND,SAS,India,LMC,Mysore,1058210,Door-to-door collection,146730,55,9,,10,10,13,3,,,,,50,31,,,,,22,,17
+IND,SAS,India,LMC,Warangal,615998,Door-to-door collection,109500,51.14,,,15.53,19.59,13.74,,,,,2,3.66,,,,93,,1.66,,
+IRL,ECS,Ireland,HIC,Dublin,527612,Multiple,142889,27,16,2,10,37,8,,,,,,,,,,,,49,,51
+IRN,MEA,"Iran, Islamic Rep.",UMC,Tehran,8432000,Curbside collection,2868170,69.3,1.9,1.5,9.9,9.6,7,0.4,0.4,,,1.9,50,,2.5,,41.5,,4,,0.1
+IRQ,MEA,Iraq,UMC,Baghdad,7000000,Door-to-door collection,3285000,,,,,,,,,,,,,,,,100,,,,
+ITA,ECS,Italy,HIC,Parma,192836,Multiple,97142.44,22.98,0.4,10.01,17.43,14.38,26.4,3.32,5.08,,,,,,,,,,72,,28
+ITA,ECS,Italy,HIC,Milano,1236837,Door-to-door collection,668158,37.4,1.4,1.5,14.4,26.2,12.6,,6.5,,,,,,44.6,,,6.8,49.9,,
+JOR,MEA,Jordan,UMC,Amman,2400000,,996815,50,3,1,15,15,16,,,,,,,,,,10,,,90,
+JPN,EAS,Japan,HIC,Yokohama,3730345,Other,1182892,34.56,1.19,0.76,14.57,25.64,11.88,,1.97,9.43,,,,10.18,74.95,,,,25.543,,
+JPN,EAS,Japan,HIC,Kobe,1547494,Centralized drop-off point,559401,36.71,0.27,0.76,10.07,35.18,13.4,1.02,0.84,1.75,,,,14.35,83.3,,,,14.89,,
+JPN,EAS,Japan,HIC,Osaka,2679962,Other,1021258,10.4,1.8,3.2,12,45.9,19.9,,,6.8,,,,14.19,90.33,,,,9.67,,
+JPN,EAS,Japan,HIC,Naha,323558,Door-to-door collection,100375,6.3,,2.8,1.7,50,31.5,,,7.7,,0,0,3.82,89.09,,,0,15.01,,0
+JPN,EAS,Japan,HIC,Kitakyushu,972192,Other,409332,49.1,0.6,0.8,14.3,26.4,8.7,,,,,,,11.35,75.93,,,,25.38,,
+JPN,EAS,Japan,HIC,Toyama,418495,Centralized drop-off point,163417,34.5,0.2,0.5,12.6,35.5,15.1,0.3,1.2,0.1,,,0.44,7.94,76.16,,,,24.28,,
+KAZ,ECS,Kazakhstan,UMC,Atyrau,275896,Centralized drop-off point,100000,32.5,4.3,2.9,22.5,27.6,8.3,0.7,,1.2,,,,,,,100,,,,
+KEN,SSF,Kenya,LMC,Nairobi,3050000,,829645,50.9,2,2,11.4,17.5,16.1,,,,,,,,,,33,,5,,62
+KGZ,ECS,Kyrgyz Republic,LMC,Osh,281900,Centralized drop-off point,312700,64.19,4.67,1.27,7.06,9.2,13.11,0.27,0.22,,,,,,,,100,,,,
+KGZ,ECS,Kyrgyz Republic,LMC,Bishkek,865000,Centralized drop-off point,544700,37,1,4,23,27,7,,1,,,,,,,,,,1,,
+KHM,EAS,Cambodia,LMC,Phnom Penh,1731000,Multiple,711750,70,2,2,9,5,6,,6,,,,0.15,,,,,,,,99.85
+KIR,EAS,Kiribati,LMC,South Tarawa,46000,Door-to-door collection,8395,74,2.6,8.4,0.5,7,6.6,1,,,,,,,,26,,38,1,,
+KOR,EAS,"Korea, Rep.",HIC,Seoul,10204000,Door-to-door collection,3353985,9.4,,9.9,30.4,41.7,5.9,2.7,,,,,29,,8,,,,36,27,
+LAO,EAS,Lao PDR,LMC,Vientiane,997000,Door-to-door collection,232505,34,7,1,6,7,12,3,,30,,,,50,,,,,10,,40
+LBN,MEA,Lebanon,UMC,Beirut,650000,Curbside collection,240000,52,4,6,2,15,13,2,3,3,,,10,,,,,2,5,83,
+LBN,MEA,Lebanon,UMC,Saida,150000,Centralized drop-off point,36500,50,5,5,,12,17,2,4,5,,50,10,,,,,7,20,,
+LBR,SSF,Liberia,LIC,Monrovia,1056000,Door-to-door collection,284700,40,1,1,42,5,11,,,,,,,,,,,,,,
+LBY,MEA,Libya,UMC,Tripoli,1126000,,263033.6,36.3,3.5,6.7,19.5,15.3,18.6,,,,,,,,,,,,,,
+LKA,SAS,Sri Lanka,LMC,Dehiwala Mt. Lavinia Municipal Council,187684,Door-to-door collection,63948,52.5,1.2,0.7,6.7,13.6,10.5,0.6,,14.1,,,0.5,,,,92.2,,3.4,,3.9
+LKA,SAS,Sri Lanka,LMC,Kurunegala,25317,Curbside collection,17545.55,52,0.3,2,7.6,15.7,6.2,0.3,,16,,,2.7,,,,80.4,2.7,14.2,,
+LKA,SAS,Sri Lanka,LMC,Trincomalee,50268,Curbside collection,22662.85,12,2,1,40,4,3,1,,37,,,5.6,,,,61.5,28.7,4.1,,0.1
+LKA,SAS,Sri Lanka,LMC,Jaffna,82493,Curbside collection,38278,68.9,0.4,0.3,8.4,2.7,4,0.2,,15.1,,,5.9,,,,70.3,13.6,10.4,,0
+LKA,SAS,Sri Lanka,LMC,Moratuwa,171214,Door-to-door collection,45442.5,52.5,1.2,0.7,6.7,13.6,10.5,0.6,,14.1,,,14.2,48.6,,,,12.9,3.1,,21.2
+LKA,SAS,Sri Lanka,LMC,Colombo,318048,Door-to-door collection,282875,70.9,4.1,0.9,5,6.6,9.2,,3.5,,,,0.97,,,,99,,,,0.03
+LTU,ECS,Lithuania,HIC,Vilnius,517000,Centralized drop-off point,289300,24.3,12.5,7.2,18,11.8,9.9,,4.9,11.2,,,,64,,,,,36,,
+LTU,ECS,Lithuania,HIC,Kaunas,292691,Centralized drop-off point,130663,23.25,5.34,3.01,28.87,10.53,19.66,,2.09,7.52,,,,87,,,,,13,,
+LVA,ECS,Latvia,HIC,Riga,643368,,312346,,,,,,,,,,,,,,,,,,,,
+MAR,MEA,Morocco,LMC,Rabat,650000,Curbside collection,237250,,,,,,,,,,,,,,,,,,3,97,
+MAR,MEA,Morocco,LMC,Tangier,1100000,Curbside collection,350000,66,1,1,7,9,11,,,5,,,,,,,100,,,,
+MAR,MEA,Morocco,LMC,Beni Mellal,192362,centralized and curbside,52955,65,3,2,17,6,7,,,,,,,,,,,,,,
+MDA,ECS,Moldova,LMC,Soldanesti,7500,Centralized drop-off point,2037.5,20.2,3.5,0.7,60.9,5.5,9.1,,,,,,,,,,,,,,
+MDA,ECS,Moldova,LMC,Chisinau,789534,Centralized drop-off point,282900,74,5,2,10,2,5,,1,1,,,,,,,,,,,
+MDG,SSF,Madagascar,LIC,Antananarivo,2610000,,401500,24.3,,0.1,54.07,8.2,11.1,,2.1,0.2,,,,,,,,,,,
+MDV,SAS,Maldives,UMC,Male,153904,Door-to-door collection,87143.57,48.76,3,3,16.25,12,10,,2.75,4.24,,,,,,,100,,,,
+MDV,SAS,Maldives,UMC,Addu,21275,Door-to-door collection,7612,40,3,4,11,7,5,,,30,,,,,,,100,,,,
+MDV,SAS,Maldives,UMC,Fuahmulah,8510,Centralized drop-off point,2510.47,19.57,2.84,2.13,13.65,4.2,6.93,,1,49.68,,,,,,,100,,,,
+MEX,LCN,Mexico,UMC,M√É¬©xico City,8851080,Curbside collection,4705945,49.5,2.65,1.45,22.87,9.92,13.16,,0.45,,,,10.6,66.7,,,,4.2,14.19,1.56,2.75
+MEX,LCN,Mexico,UMC,Guadalajara,1460148,Other,648812,33.68,4.03,0.77,22.41,20.15,18.96,,,,,,,,,,,,8,92,
+MEX,LCN,Mexico,UMC,Monterrey,1109171,Door-to-door collection,430158,31.24,3.22,1.8,39.87,7.06,16.18,0.01,0.06,0.54,,,,,,,,,,100,
+MHL,EAS,Marshall Islands,UMC,Majuro,40108,Door to door collection,8614,42.7,3.2,11,12.2,11.1,12.5,7.3,,,,,,,,,,,,,
+MKD,ECS,"Macedonia, FYR",UMC,Kratovo,9536,Centralized drop-off point,1518,7.6,1.8,0.1,2,3.1,4.6,,,80.8,,,,,,,,,,,
+MKD,ECS,"Macedonia, FYR",UMC,Skopje,503000,Centralized drop-off point,182489,15.2,5.5,1.2,48.4,15.3,12.4,,,2,,,,95,,,2,,3,,
+MLI,SSF,Mali,LIC,Bamako,1933000,,330000,36.2,12,14,23,12.8,16,,,,,,,,,,,,21,,
+MLI,SSF,Mali,LIC,Sikasso,225000,Door-to-door collection,46770,,,,,,,,,,,,,,,25,,,,,75
+MMR,EAS,Myanmar,LMC,Mandalay,1000000,Multiple,343100,65,2,1,11,6,15,,,,,,,,,,,,5,,
+MMR,EAS,Myanmar,LMC,Yangon,4802000,Multiple,723065,69,1,1,10,3,8,,,8,,,,,,,87.66,,4.33,,7.67
+MNE,ECS,Montenegro,UMC,Podgorica,190392,Curbside collection,87808,37,11.5,2.6,17.54,13,15.61,,2.75,,,,,,,,,,,69.79,30.21
+MNE,ECS,Montenegro,UMC,Kotor,22515,Curbside collection,10121,,,,,,,,,,,,,59.98,,,,,,,40.02
+MNG,EAS,Mongolia,LMC,Ulaanbaatar,1377000,Door-to-door collection,1100000,29.5,4.5,3.5,27,17.5,18,,,,,,,,,,88.85,,3.2,,7.95
+MNP,EAS,Northern Mariana Islands,HIC,Saipan,49000,,32371.85,,,,,,,,,,,,,,,,,,,,
+MOZ,SSF,Mozambique,LIC,Maputo,1100000,Other,401500,68,2,4,4,12,10,,,,,,,,,,99,,1,,
+MRT,SSF,Mauritania,LMC,Nouakchott,968000,Centralized drop-off point,,5,4,4,59,7,21,,,,,,,,,,,,,,
+MWI,SSF,Malawi,LIC,Blantyre,701000,,"100,000",,,,,,,,,,,,,,,,,,,,70
+MWI,SSF,Malawi,LIC,Lilongwe,731000,,95000,,,,,,,,,,,,,,,,,,,,70
+MYS,EAS,Malaysia,UMC,Kuala Lumpur,6837000,,1600000,42.02,1.84,5.3,2.53,12.9,24.74,2.45,5.74,2.48,,,,,,,,,10.4,,89.6
+NAM,SSF,Namibia,UMC,Windhoek,227000,,57998.5,36,13,5,10,20,16,,,,,,,,,,,,,,
+NER,SSF,Niger,LIC,Niamey,816000,Door-to-door collection,146000,38,,1,57,2,2,,,,,,,,,,37.4,52.5,,,10.1
+NGA,SSF,Nigeria,LMC,Lagos,9000000,,1642500,53,5,5,12,10,15,,,,,,,,,,,,,,
+NGA,SSF,Nigeria,LMC,Oyo,322000,,20000,56.7,3.1,2.8,4.2,14.4,18.8,,,,,,,,,,,,,,
+NGA,SSF,Nigeria,LMC,Ibadan,3160000,Door-to-door collection,635000,42,4,5,27,10,9,,3,,,,,,,,44,,,,56
+NIC,LCN,Nicaragua,LMC,Puerto Cabezas,66169,Door-to-door collection,14198.5,77,3.07,2.03,8.54,2.6,6.66,,,,,,,,,100,,,,,
+NIC,LCN,Nicaragua,LMC,Managua,1002882,Multiple,468660,71.72,1.42,1.28,8.64,8.57,8.37,,,,,,,,,87.61,,,8.95,,3.44
+NLD,ECS,Netherlands,HIC,Amsterdam,799345,Other,324302,21.5,8.6,2.9,39.2,18,6.4,,,3.4,,,,,,,,,14,,86
+NOR,ECS,Norway,HIC,Bergen,271949,,70528,20,4,5,28,18,8,,14,3,,,,,39.1,14.5,,,46.4,,
+NOR,ECS,Norway,HIC,Oslo,986000,Curbside collection,360876,,,,,,5,,,,,,,,57.85,,,1.547,37.197,3.4,0.006
+NPL,SAS,Nepal,LIC,Butwal,120982,Centralized drop-off point,9902.45,61.13,3.71,1.56,7.85,11.38,13.46,0.91,,,,,,,,,,62.7,,,37.3
+NPL,SAS,Nepal,LIC,Pokhara,264991,Door-to-door collection,42745.15,56.34,4.82,4.18,4.88,17.97,9.92,1.88,,,,,,,,,,,,42.7,57.3
+NPL,SAS,Nepal,LIC,Dhankuta,28364,Door-to-door collection,2701,48.66,0,2.37,13.84,17.12,17.85,0.16,,,,,,,,,,,,81.1,18.9
+NPL,SAS,Nepal,LIC,Birgunj,139068,Door-to-door collection,13932.05,55.08,9.72,1.23,8.58,10.91,14.46,0,,,,,,,,,19.65,19.65,,,60.7
+NPL,SAS,Nepal,LIC,Kathmandu,1003285,Multiple,170141.1,53.24,3.21,2.09,3.38,17.31,20.14,0.63,,,,,,,,,,,,86.9,13.1
+NPL,SAS,Nepal,LIC,Lalitpur,226728,Multiple,30769.5,57.07,1.44,0.53,6.55,18.38,15.56,0.46,,,,,,,,,,,,71.2,28.8
+NPL,SAS,Nepal,LIC,Badimalika,18207,Centralized drop-off point,872.35,51.06,10.57,0.24,18.17,12.97,6.87,0.11,,,,,,,,,100,,,,
+NPL,SAS,Nepal,LIC,Bharatpur,147777,Door-to-door collection,21578.8,74.23,3.59,1.58,2.81,11.36,5.61,0.82,,,,,,,,,25.4,,,,74.6
+NPL,SAS,Nepal,LIC,Dharan,119915,Door-to-door collection,18585.8,50.49,3.7,6.33,9.75,12.95,16.19,0.59,,,,,,,,,,68.7,,,31.3
+NPL,SAS,Nepal,LIC,Bhimeshwor,23337,Centralized drop-off point,1036.6,51.68,0.52,0.01,26.23,11.17,8.17,2.22,,,,,,,,,,,,,
+NPL,SAS,Nepal,LIC,Biratnagar,204949,Door-to-door collection,21305.05,71.07,0.52,0.21,1.86,13.18,11.99,1.17,,,,,,,,,85.7,,,,14.3
+NPL,SAS,Nepal,LIC,Bhaktapur,83658,Door-to-door collection,10548.5,62.68,1.17,2.73,8.66,11.35,13.24,0.18,,,,,,,,,86.5,,,,13.5
+NZL,EAS,New Zealand,HIC,Auckland,1414700,Curbside collection,226352,55.5,1.8,2.7,17.4,10.5,11.2,0.1,0.8,,,,,,,,,,,,84
+NZL,EAS,New Zealand,HIC,Wellington,383000,,302500,19,1.5,1.3,12.2,28,38,,,,,,1,,,88,,,10,,1
+OMN,MEA,Oman,HIC,Muscat,838000,Curbside collection,219000,,,,,,,,,,,,,,,,,,,,
+PAK,SAS,Pakistan,LMC,Karachi,14910352,,2719250,21,1.5,0.75,48,4.1,6.4,2.3,2.25,14,,,,60,,,,40,,,
+PAK,SAS,Pakistan,LMC,Lahore,11126285,Door-to-door collection,2436656.415,65,0.696,0.07,21.824,2.5,0.61,9.53,,,,,,61.53,6.15,,,,,32.31,0.01
+PAK,SAS,Pakistan,LMC,Sialkot,809000,,125000,39.7,7.8,3.4,16.3,12.9,12.8,3.1,4,,,,,,,,25,,,,75
+PAN,LCN,Panama,HIC,Panam√É¬° City,1382667,,494579.98,45,8,5,4,26,12,,,,,,,,,,,,2,65,33
+PAN,LCN,Panama,HIC,San Miguelito,560285,,199436,,,,,,,,,,,,,,,,,,,97.5,2.5
+PAN,LCN,Panama,HIC,Col√É¬≥n,250802,,59860,,,,,,,,,,,,,,,,74,,,,26
+PER,LCN,Peru,UMC,Cusco,111340,Door-to-door collection,48563,47.9,2.44,3.45,17.07,9.44,11.63,0.54,0.19,7.34,,,,,,,69.6,,0.3,,
+PHL,EAS,Philippines,LMC,Cebu,923000,Multiple,229950,67,1,1,12,4,15,,,,,,,,,,60,,,40,
+PHL,EAS,Philippines,LMC,Quezon City,2940000,Door-to-door collection,944328,53.95,1.15,0.86,25.76,8.65,9.64,,,,,,,61,,,,,42,,
+PLW,EAS,Palau,HIC,Koror,11754,,1369,7,2,13,7,22,48,,,1,,,,,,,,,,,
+PNG,EAS,Papua New Guinea,LMC,Port Moresby,345000,Door-to-door collection,107310,29.6,7.1,9.4,12.5,11.5,18.5,11.4,,,,,,61.56,,,,36.73,1.7,,0.01
+POL,ECS,Poland,HIC,Lodzi,728900,,157070.6,,,,,,,,,,,,,,,,,,,,
+POL,ECS,Poland,HIC,Krak√É¬≥w,741208,,320500,29.22,8.53,2.25,24.93,20.48,14.59,,,,,,,,,,,,33,,80.34
+PRT,ECS,Portugal,HIC,Lisbon,511667,Other,291703.71,41,5,1.5,24,15,13,,0.5,,,,,,,,,,21.8,,78.2
+PRT,ECS,Portugal,HIC,Guimar√É¬£es,158100,Door-to-door collection,56000,36.42,5.19,2,25.26,11.08,12.33,,0.41,,,,,,,,,,,,
+PRY,LCN,Paraguay,UMC,Asunci√É¬≥n,525293,Door-to-door collection,282613,37.4,3.5,1.3,23.6,10.2,4.2,0.6,,19.2,,,,,,,92.2,,,,7.8
+PRY,LCN,Paraguay,UMC,Ciudad Del Este,337608,Door-to-door collection,157731.1,57.1,1.8,1.6,1.5,11.5,10.3,0.3,,16,,,,48.8,,,,,,,51.2
+PRY,LCN,Paraguay,UMC,San Lorenzo,283939,Door-to-door collection,105711,20,4,2,52,6,12,1,,3,,,,,,,58.2,,,,41.8
+QAT,MEA,Qatar,HIC,Doha,718000,Curbside collection,359035.9,,,,,,,,,,,,,,,,,,,,
+ROU,ECS,Romania,UMC,Cluj-Napoca,327000,Other,112194,50.5,4.5,2.5,20,11,9,,2.5,,,,,,,,,,13.72,,
+ROU,ECS,Romania,UMC,Bucharest,1868000,Other,632866.62,64.52,7.1,3.03,,13.58,9.42,,2.35,,,,,,,,,,9.44,,
+RUS,ECS,Russian Federation,UMC,Moscow,11461000,Centralized drop-off point,5500000,22,16,2,24,17,13,1,5,,,,,,,,90,6,4,,
+RUS,ECS,Russian Federation,UMC,St.petersburg,4993000,Centralized drop-off point,2300000,23.1,6.3,3.5,21.6,29.7,5.8,3.5,6.5,,,,,,,80,,3,10,,7
+RUS,ECS,Russian Federation,UMC,Kemerovo,533000,Centralized drop-off point,189254,17,3,7,15,45,13,,,,,,,,,,98.1,,1.9,,
+RWA,SSF,Rwanda,LIC,Kigali√Ç¬†,1257000,,871729.5,66.86,1.36,1.93,2,16.13,1.5,0.36,2.9,6.93,,,,25,,,,,,,75
+SAU,MEA,Saudi Arabia,HIC,Jeddah,4076000,Curbside collection,2200000,45,3,2,5,14,16,4,6,5,,,,,,,,,,,
+SAU,MEA,Saudi Arabia,HIC,Riyadh,6370000,Curbside collection,4380000,55.9,3.2,2.4,13,12.2,13.3,,,,,,,85,,,,,,,15
+SEN,SSF,Senegal,LIC,Rufisque,300000,Door-to-door collection,76650,,,,,,,,,,,,,,,,,,,,
+SLB,EAS,Solomon Islands,LMC,Honiara,78000,Door-to-door collection,29000,53,1.1,9.2,7.2,6.6,19.5,3.4,,,,,,,,,,,,,
+SLE,SSF,Sierra Leone,LIC,Freetown,800000,,163520,59.2,1.2,6.2,21.8,,0.9,,,,,,,,,,,,,,45
+SLV,LCN,El Salvador,LMC,San Salvador,1097000,Other,293747,58,2,2,8,19,11,,,,,,,,,,,,,65.4,34.6
+SOM,SSF,Somalia,LIC,Hargeysa,607000,,80000,21.2,5.2,2.5,35.2,19.9,16,,,,,,,,,,,,,,
+SRB,ECS,Serbia,UMC,Belgrade,1392691,Curbside collection,781692,30.93,6.84,2.38,14.96,22.69,14.92,0.61,,6.68,,,,,,,,,,,
+SRB,ECS,Serbia,UMC,Novi Sad,314192,Centralized drop-off point,120773,40.73,11.19,1.41,9.11,16.26,12.08,0.03,,9.17,,,,,,,,,2,,98
+SSD,SSF,South Sudan,LIC,Juba,321000,,130053.15,31,5,7,25,12,20,,,,,,,,,,,,,,
+SVK,ECS,Slovak Republic,HIC,Trnava,65536,,60816,42.35,32.58,,14.7,4.36,5.78,0.24,,,,,,82.42,0.34,,0.56,6.9,9.79,,
+SVK,ECS,Slovak Republic,HIC,Bratislava,415589,Curbside collection,140594,50.17,15,1,,27,9,,,,,,,32.01,41.02,,0.43,16.73,9.81,,
+SVN,ECS,Slovenia,HIC,Ljubljana,309261,Other,98410,,,,,,,,,,,,,,,39,,,61,,
+SWE,ECS,Sweden,HIC,Bor√É¬•s,106000,Curbside collection,25500,11,4,4.2,48.2,10,0.7,,10,5,,,,1,55,,,15.5,29,,
+SWE,ECS,Sweden,HIC,Stockholm,897700,Other,399133,37.6,4.5,2,18,24.8,10.2,,0.2,2.8,,,,3,71.1,,,5,21,,
+SYR,MEA,Syrian Arab Republic,LIC,Damascus,2566000,,1095000,57.3,2.9,4,22.3,6.6,6.9,,,,,,,,,,,,,,
+TGO,SSF,Togo,LIC,Lome,956000,Door-to-door collection,311000,38,,,36,,,,26,,,,,,,,,,,,
+THA,EAS,Thailand,UMC,Bangkok,9270000,Door-to-door collection,4190000,42.72,2.7,1.15,6.41,15.18,25.01,0.83,,5.99,,,48.7,,,,,,11.85,39.45,
+TJK,ECS,Tajikistan,LIC,Dushanbe√Ç¬†,679400,Centralized drop-off point,257000,,,,,,,,,,,,,,,,,,,,
+TJK,ECS,Tajikistan,LIC,Khujand,144865,,51974,4.5,,5,55.5,25,10,,,,,,,,,,,,,,
+TKM,ECS,Turkmenistan,UMC,Ashgabat,746000,,164000,19,4,3,34,7,3,1,1,28,,,,,,,,,,,
+TLS,EAS,Timor-Leste,LMC,Dili,234331,Door-to-door collection,54750,12,2,1,17,18,18,,,33,,,,,,,,,,,
+TON,EAS,Tonga,UMC,Tongatapu,69211,Door-to-door collection,10950,51.3,5.9,9,8.9,7.4,13.4,4.1,,,,,,,,,,,,,
+TON,EAS,Tonga,UMC,Vava√¢‚Ç¨‚Ñ¢u,14936,,5515,51.3,5.9,9,8.9,7.4,13.4,4.1,,,,,1.5,27.4,,,,12.3,5.1,,53.7
+TUN,MEA,Tunisia,LMC,Tunis,700000,Curbside collection,220000,46.7,2.48,2.8,17,21.31,10.15,,,,,,,,,,4,,3,93,
+TUN,MEA,Tunisia,LMC,Sfax,300000,Curbside collection,77000,68,2,4,5,10,11,,,,,,,,,,,,2,98,
+TUN,MEA,Tunisia,LMC,Sousse,170000,,70000,65,3,2,12,9,9,,,,,,,63,,,,,6,,
+TUR,ECS,Turkey,UMC,Sakarya Mm,925662,,358139,40.6,4.4,2.4,24.5,11.8,15.9,,,0.5,,,,,,,,,2.49,,97.51
+TUR,ECS,Turkey,UMC,Bursa Mm (Metropolitan Municipality),2764826,,1069711,39.4,4.9,0.5,21.3,18.5,15.5,,,,,,,,,,,,,,
+TZA,SSF,Tanzania,LIC,Dar Es Salaam,4364541,Multiple,1496500,45,2.9,1.7,18.5,4.1,2,1,,25.1,,,,,,,,18,13,28,41
+TZA,SSF,Tanzania,LIC,Moshi,183520,,62050,65,3,2,12,9,9,,,,,,20,49,,,,,,,31
+TZA,SSF,Tanzania,LIC,Mountain Kilimanjaro,210000,,50000,55,1,8,3,9,24,,,,,,,,,,,,,,
+UGA,SSF,Uganda,LIC,Kampala,1936000,,840000,73.8,0.9,3.1,7.2,5.5,1.6,,,8,,,,100,,,,,,,
+UKR,ECS,Ukraine,LMC,Pavlograd,109885,Other,84600,20.6,10.5,0.6,42.8,11.5,12.6,1.2,0.3,,,,,,,,,,,,
+UKR,ECS,Ukraine,LMC,Kiev,2942000,,1100000,35,10,1,36,10,7,,1,,,,,,23,70.6,,,6.4,,
+URY,LCN,Uruguay,HIC,Montevideo,1319108,Centralized drop-off point,481800,40.95,5.73,2.06,13.55,19.05,15.87,0.43,,2.35,,,,71,,,,,29,,
+USA,NAC,United States,HIC,Seattle,631350,Curbside collection,720904,53.8,2.3,3.1,8.8,20.3,11.5,,,,,,,41.95,,,,,58.04,,
+USA,NAC,United States,HIC,Washington Dc,693972,Curbside collection,479930.77,83.86,,0.1,15.94,0.11,,,,,32,,1,56,,,,,11,,
+USA,NAC,United States,HIC,Ann Arbor,307000,,200767.82,,,,,,,,,,,,,,,,,,31,,
+UZB,ECS,Uzbekistan,LMC,Tashkent,2251000,Centralized drop-off point,500000,38.4,3.7,3.4,21,18.9,,0.8,4.9,8.9,,,,,,,,,,,
+VEN,LCN,"Venezuela, RB",UMC,Caracas,3220540,Centralized drop-off point,1787940,50,,,50,,,,,,,,,,,,,,0.9,99.1,
+VNM,EAS,Vietnam,LMC,Hanoi,3629000,Door-to-door collection,2390750,59.1,2.4,0.9,19.8,5.9,8.6,0.5,,2.6,,,2,,5.4,10.91,,,8.2,63.64,10
+VNM,EAS,Vietnam,LMC,Ho Chi Minh City,7981900,Door-to-door collection,2518500,69,,0.2,10.8,3,16,1.1,1,,,,15,,,,,,,85,
+VUT,EAS,Vanuatu,LMC,Port Vila,44039,Door-to-door collection,27000,62.8,7.8,4.6,9.4,6.1,7.9,1.4,,,,,,,,,,,,,
+XKX,ECS,Kosovo,LMC,Gjilan,90015,,27000,,,,,,,,,,,,,,,100,,,0,,
+XKX,ECS,Kosovo,LMC,Pristina,210000,Other,130928,40.87,4.45,1.18,24.72,12.83,14.78,,1.17,,,,,80,,,10,,10,,
+YEM,MEA,"Yemen, Rep.",LIC,Sana√É¬°,2330689,Door-to-door collection,510420.89,65,1,6,6,7,10,1,3,1,,,,53,,,,,12,,30
+ZAF,SSF,South Africa,UMC,Johannesburg√Ç¬†,4434827,,1867000,,,,,,,,,,,,5,,,95,,,,,
+ZAF,SSF,South Africa,UMC,Cape Town,3430000,,1251950,47,4,14,22,7,6,,,,,,,,,,,,,,
+ZAF,SSF,South Africa,UMC,Durban,2739000,,1421541,42.5,7.1,6.9,6.8,19.3,17.4,,,,,,,,,,,,,,
+ZMB,SSF,Zambia,LMC,Ndola√Ç¬†,453000,,85979.4,40,,,16.66,5,8.33,,,30,,,,,,,,,,,
+ZMB,SSF,Zambia,LMC,Lusaka,1719000,,530000,40,2,2,40,9,7,,,,,,,26,,,,,6,,68
+ZWE,SSF,Zimbabwe,LIC,Norton,58421,,14021.04,62.3,2.7,4.9,16.2,4.8,9.1,,,,,,,,,,,,,,
+ZWE,SSF,Zimbabwe,LIC,Chinhoyi,98000,,25480,62.8,3.5,5.4,14.7,5,8.6,,,,,,,,,,,,,,
+ZWE,SSF,Zimbabwe,LIC,Harare√Ç¬†,1379000,Door-to-door collection,352334.5,22.61,6.45,,32.74,19.69,18.1,,,,,,,,,,,,,,
+ZWE,SSF,Zimbabwe,LIC,Gweru,157865,,37887.6,62.4,3,3.8,13.9,6.7,10.2,,,,,,,,,,,,,,
+ZWE,SSF,Zimbabwe,LIC,Kariba,26512,,7423.36,52,2,3,25,7,11,,,,,,,,,,,,,,
