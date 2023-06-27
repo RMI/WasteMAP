@@ -163,6 +163,9 @@ def insert_land_or_dump(landfill_variable):
 # Function to change the landfill gas caoture variable that is 100% dependent on the for loop. Extra work required if we want to switch back and forth between excel vs loop.
 def insert_gas_capture(capture_variable):
     wb.sheets["Landfills and Dumpsites"].range("C20").value = capture_variable
+    
+def insert_waste_depth(depth_variable):
+    wb.sheets["Landfills and Dumpsites"].range("C19").value = depth_variable
 
 
 # Extract the final output data from the "Summary - Emissions" tab "Table 2..." table from "Year" to "CH4" columns 
@@ -204,9 +207,6 @@ waste_gen_rate = retrieve_gen_vals()
 # Create empty list
 appended_data = []
 
-# Create list of landfill types
-landfill_type = ['Controlled Dumpsite','Dumpsite','Landfill']
-
 # Create list of diversion percent scenarios
 diversion_percent = [0, 0.2, 0.4, 0.6]
 
@@ -216,6 +216,11 @@ composting_percent = [0, 0.2, 0.4, 0.6, 0.8, 1]
 # Create list of years out composting should start from
 #compost_year_variable = [1, 2, 3, 4, 5]
 compost_year_variable = [0]
+
+# Create list of landfill types
+landfill_type = ['Controlled Dumpsite','Dumpsite','Landfill']
+
+waste_depth = [4, 6]
 
 # Create list of methane capture scenarios
 methane_capture = ['Yes', 'No']
@@ -240,23 +245,26 @@ for index, row in data.iterrows():
                         insert_compost_ad(row, year_var, diversion_perc, compost_perc)
                         for types in landfill_type:
                             for capture in methane_capture:
-                                counter += 1
-                                insert_land_or_dump(types)
-                                insert_gas_capture(capture)
-                                if diversion_perc == 0 and compost_perc > 0:
-                                    pass
-                                else:
-                                    df = summary_extraction(2050)
-                                    df['city'] = row['city']
-                                    df['country'] = row['country']
-                                    df['landfill_type'] = types
-                                    df['diversion_percent'] = diversion_perc
-                                    df['compost_percent'] = compost_perc
-                                    df['compost_start_year'] = dt.datetime.today().year + year_var
-                                    df['methane_capture'] = capture
-                                    df['landfill_name'] = row['landfill_name']
-                                    df['loop_iteration'] = counter
-                                    appended_data.append(df)
+                                for depth in waste_depth:
+                                    counter += 1
+                                    insert_land_or_dump(types)
+                                    insert_waste_depth(depth)
+                                    insert_gas_capture(capture)
+                                    if diversion_perc == 0 and compost_perc > 0:
+                                        pass
+                                    else:
+                                        df = summary_extraction(2050)
+                                        df['city'] = row['city']
+                                        df['country'] = row['country']
+                                        df['landfill_type'] = types
+                                        df['diversion_percent'] = diversion_perc
+                                        df['compost_percent'] = compost_perc
+                                        df['compost_start_year'] = dt.datetime.today().year + year_var
+                                        df['methane_capture'] = capture
+                                        df['waste_depth'] = depth
+                                        df['landfill_name'] = row['landfill_name']
+                                        df['loop_iteration'] = counter
+                                        appended_data.append(df)
 
 # Create dataframe from appended_data list
 final_df = pd.concat(appended_data)
